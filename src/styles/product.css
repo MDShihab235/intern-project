@@ -1,0 +1,48 @@
+.cart-items {
+  width: 200px;
+  height: 150px;
+  height: fit-content;
+  border-radius: 5px;
+  background-color: #94d3a2;
+  padding-right: 15px;
+  margin: 10px;
+
+  > img {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    padding: 5px;
+    object-fit: cover;
+  }
+  div {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  > button {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+}
+
+/* CSS */
