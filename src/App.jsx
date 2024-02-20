@@ -1,16 +1,16 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./components/home";
 import ShoppingCart from "./components/shoppingCart";
-import Login from "./components/login";
-import useToken from "./components/auth";
+// import Login from "./components/login";
+// import useToken from "./components/auth";
 // import Search from "./components/search";
 
 function App() {
-  const { token, setToken } = useToken();
+  // const { token, setToken } = useToken();
 
-  if (!token) {
-    return <Login setToken={setToken} />;
-  }
+  // if (!token) {
+  //   return <Login setToken={setToken} />;
+  // }
 
   return (
     <Router>
